@@ -15,7 +15,10 @@ namespace Algorithms.Sorting
         }
 
 
-
+        /// <summary>
+        /// Time complexity: worst case = average case = (2 * NlgN), best case = (NlgN)
+        /// </summary>
+        /// <param name="pq"></param>
         public static void Sort(IComparable[] pq)
         {
             int N = pq.Length;
@@ -28,6 +31,10 @@ namespace Algorithms.Sorting
             }
         }
 
+        /// <summary>
+        /// Time complexity: worst case = average case = (2 * NlgN), best case = (NlgN)
+        /// </summary>
+        /// <param name="pq"></param>
         public static void Sort(List<IComparable> pq)
         {
             int N = pq.Count;
@@ -115,6 +122,10 @@ namespace Algorithms.Sorting
 
     public class HeapSortGeneral<TKey> : HeapSortGeneral where TKey : IComparable<TKey>
     {
+        /// <summary>
+        /// Time complexity: worst case = average case = (2 * NlgN), best case = (NlgN)
+        /// </summary>
+        /// <param name="pq"></param>
         public static void Sort(List<TKey> pq)
         {
             int N = pq.Count;
@@ -126,6 +137,11 @@ namespace Algorithms.Sorting
                 Sink(pq, 1, N);
             }
         }
+
+        /// <summary>
+        /// Time complexity: worst case = average case = (2 * NlgN), best case = (NlgN)
+        /// </summary>
+        /// <param name="pq"></param>
         public static void Sort(TKey[] pq)
         {
             int N = pq.Length;

@@ -2,6 +2,23 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Company>Chitataunga Inc</Company>
+    <Authors>Anderson Phiri (chikuse)</Authors>
+    <Description>contains all common items for the rest of the algs</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/andersonphiri/algorithmsnet5reloaded.git</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/andersonphiri/algorithmsnet5reloaded.git</RepositoryUrl>
+    <PackageIcon>chitataunga.jpg</PackageIcon>
+    <PackageIconUrl />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\phiri\OneDrive\Pictures\chitataunga.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

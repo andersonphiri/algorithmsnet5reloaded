@@ -20,3 +20,4 @@ D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithm
 D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Common\obj\Release\net5.0\Chitataunga.Algorithms.Common.dll
 D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Common\obj\Release\net5.0\ref\Chitataunga.Algorithms.Common.dll
 D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Common\obj\Release\net5.0\Chitataunga.Algorithms.Common.pdb
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Common\obj\Release\net5.0\Chitataunga.Algorithms.Common.csproj.AssemblyReference.cache

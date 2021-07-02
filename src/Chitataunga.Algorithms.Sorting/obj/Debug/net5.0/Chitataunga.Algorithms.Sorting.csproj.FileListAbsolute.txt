@@ -1,0 +1,15 @@
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Sorting\bin\Debug\net5.0\Chitataunga.Algorithms.Sorting.deps.json
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Sorting\bin\Debug\net5.0\Chitataunga.Algorithms.Sorting.dll
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Sorting\bin\Debug\net5.0\ref\Chitataunga.Algorithms.Sorting.dll
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Sorting\bin\Debug\net5.0\Chitataunga.Algorithms.Sorting.pdb
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Sorting\bin\Debug\net5.0\Chitataunga.Algorithms.Common.dll
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Sorting\bin\Debug\net5.0\Chitataunga.Algorithms.Common.pdb
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Sorting\obj\Debug\net5.0\Chitataunga.Algorithms.Sorting.csproj.AssemblyReference.cache
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Sorting\obj\Debug\net5.0\Chitataunga.Algorithms.Sorting.GeneratedMSBuildEditorConfig.editorconfig
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Sorting\obj\Debug\net5.0\Chitataunga.Algorithms.Sorting.AssemblyInfoInputs.cache
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Sorting\obj\Debug\net5.0\Chitataunga.Algorithms.Sorting.AssemblyInfo.cs
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Sorting\obj\Debug\net5.0\Chitataunga.Algorithms.Sorting.csproj.CoreCompileInputs.cache
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Sorting\obj\Debug\net5.0\Chitataunga.Algorithms.Sorting.csproj.CopyComplete
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Sorting\obj\Debug\net5.0\Chitataunga.Algorithms.Sorting.dll
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Sorting\obj\Debug\net5.0\ref\Chitataunga.Algorithms.Sorting.dll
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Sorting\obj\Debug\net5.0\Chitataunga.Algorithms.Sorting.pdb

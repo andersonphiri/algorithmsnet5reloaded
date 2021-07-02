@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Company>Chitataunga Inc</Company>
+    <Description>will contain or all sorting algorithms(Merge sort, Shell, Heap</Description>
+    <Copyright>2021</Copyright>
+    <PackageProjectUrl>https://github.com/andersonphiri/algorithmsnet5reloaded.git</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/andersonphiri/algorithmsnet5reloaded.git</RepositoryUrl>
+    <PackageTags>arranged and renamed packages</PackageTags>
+    <PackageReleaseNotes>currently contains Heapsort</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Anderson Phiri (Chikuse)</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Chitataunga.Algorithms.Common\Chitataunga.Algorithms.Common.csproj" />
+  </ItemGroup>
+
+
+</Project>

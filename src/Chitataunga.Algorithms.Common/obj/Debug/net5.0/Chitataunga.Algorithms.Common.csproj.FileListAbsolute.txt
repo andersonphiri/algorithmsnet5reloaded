@@ -1,0 +1,12 @@
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Common\bin\Debug\net5.0\Chitataunga.Algorithms.Common.deps.json
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Common\bin\Debug\net5.0\Chitataunga.Algorithms.Common.dll
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Common\bin\Debug\net5.0\ref\Chitataunga.Algorithms.Common.dll
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Common\bin\Debug\net5.0\Chitataunga.Algorithms.Common.pdb
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Common\obj\Debug\net5.0\Chitataunga.Algorithms.Common.csproj.AssemblyReference.cache
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Common\obj\Debug\net5.0\Chitataunga.Algorithms.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Common\obj\Debug\net5.0\Chitataunga.Algorithms.Common.AssemblyInfoInputs.cache
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Common\obj\Debug\net5.0\Chitataunga.Algorithms.Common.AssemblyInfo.cs
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Common\obj\Debug\net5.0\Chitataunga.Algorithms.Common.csproj.CoreCompileInputs.cache
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Common\obj\Debug\net5.0\Chitataunga.Algorithms.Common.dll
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Common\obj\Debug\net5.0\ref\Chitataunga.Algorithms.Common.dll
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Common\obj\Debug\net5.0\Chitataunga.Algorithms.Common.pdb

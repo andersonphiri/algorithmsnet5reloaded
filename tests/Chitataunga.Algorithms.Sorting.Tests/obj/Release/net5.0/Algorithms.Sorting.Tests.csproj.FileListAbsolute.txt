@@ -1,0 +1,4 @@
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\tests\Algorithms.Sorting.Tests\obj\Release\net5.0\Algorithms.Sorting.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\tests\Algorithms.Sorting.Tests\obj\Release\net5.0\Algorithms.Sorting.Tests.AssemblyInfoInputs.cache
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\tests\Algorithms.Sorting.Tests\obj\Release\net5.0\Algorithms.Sorting.Tests.AssemblyInfo.cs
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\tests\Algorithms.Sorting.Tests\obj\Release\net5.0\Algorithms.Sorting.Tests.csproj.CoreCompileInputs.cache

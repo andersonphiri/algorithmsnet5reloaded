@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Chitataunga.Algorithms.Sorting</id>
+    <version>1.0.0</version>
+    <authors>Anderson Phiri (Chikuse)</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/andersonphiri/algorithmsnet5reloaded.git</projectUrl>
+    <description>will contain or all sorting algorithms(Merge sort, Shell, Heap</description>
+    <releaseNotes>currently contains Heapsort</releaseNotes>
+    <copyright>2021</copyright>
+    <tags>algorithms</tags>
+    <repository url="https://github.com/andersonphiri/algorithmsnet5reloaded.git" />
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Chitataunga.Algorithms.Common" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Sorting\bin\Release\net5.0\Chitataunga.Algorithms.Sorting.dll" target="lib\net5.0\Chitataunga.Algorithms.Sorting.dll" />
+  </files>
+</package>

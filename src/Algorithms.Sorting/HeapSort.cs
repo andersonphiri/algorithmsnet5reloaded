@@ -1,73 +1,209 @@
 ﻿using Algorithms.Common;
 using System;
+using System.Collections.Generic;
 
 namespace Algorithms.Sorting
 {
-    public class HeapSort<TKey> where TKey : IComparable
+    public class HeapSortGeneral
     {
-        /// <summary>
-        /// Worst Case: O(2 * NlgN), Average Case: O(2 * NlgN), best case: O(NlgN) with in place sorting
-        /// </summary>
-        /// <param name="a"></param>
-        public static void Sort(TKey[] a)
+        public HeapSortGeneral()
         {
-            int N = a.Length;
-            Construct(a, N);
-            ExchangeThenSink(a, N);
+
         }
 
-        private static void ExchangeThenSink(TKey[] a, int n)
+        public static void Sort(IComparable[] pq)
         {
-            while (n > 1)
+            int N = pq.Length;
+            for (int k = N / 2; k >= 1; k--)
+                Sink(pq, k, N);
+            while (N > 1)
             {
-                Exchange(a, 1, n--);
-                Sink(a, 1, n);
+                Exchange(pq, 1, N--);
+                Sink(pq, 1, N);
             }
         }
-        /// <summary>
-        /// Takes : 1 + lgN compares
-        /// Power struggle: a better subordinate is promoted
-        /// </summary>
-        /// <param name="a"></param>
-        /// <param name="k"></param>
-        private static void Swim(TKey[] a, int k)
+
+        public static void Sort(List<IComparable> pq)
         {
-            int kStore = k;
-            while (k > 1 && Less(a, kStore / 2, kStore))
+            int N = pq.Count;
+            for (int k = N / 2; k >= 1; k--)
+                Sink(pq, k, N);
+            while (N > 1)
             {
-                Exchange(a,kStore, kStore/ 2);
-                kStore /= 2;
+                Exchange(pq, 1, N--);
+                Sink(pq, 1, N);
             }
         }
-        /// <summary>
-        /// PETER Principle: Node promoted to  level of incompetence. Need to sink
-        /// Takes : 1 + lgN compares
-        /// </summary>
-        /// <param name="a"></param>
-        /// <param name="k"></param>
-        /// <param name="n"></param>
-        private static void Sink(TKey[] a, int k, int n)
+
+        protected static void Sink(IComparable[] pq, int k, int N)
         {
-            while (2 * k <= n)
+            while (2 * k <= N)
             {
                 int j = 2 * k;
-                if (j < n && Less(a, j, j + 1)) j++; // find max child index
-                if (!Less(a, k, j)) break; // now heapified so exit
-                Exchange(a, k, j); // swap
+                if (j < N && Less(pq, j, j + 1)) j++;
+                if (!Less(pq, k, j)) break;
+                Exchange(pq, k, j);
                 k = j;
-
             }
         }
 
-        private static void Construct(TKey[] a, int n)
+        protected static void Sink(List<IComparable> pq, int k, int N)
         {
-            for (int k = n / 2; k >= 1; k--)
+            while (2 * k <= N)
             {
-                Sink(a,k,n);
+                int j = 2 * k;
+                if (j < N && Less(pq, j, j + 1)) j++;
+                if (!Less(pq, k, j)) break;
+                Exchange(pq, k, j);
+                k = j;
             }
         }
 
-        private static bool Less(TKey[] a, int i, int j) => CompareHelper<TKey>.Less(a[i], a[j]);
-        private static void Exchange(TKey[] a, int i, int j) => CompareHelper<TKey>.Exchange(a, i, j);
+        protected static bool Less(IComparable[] pq, int i, int j)
+        {
+            return pq[i - 1].CompareTo(pq[j - 1]) < 0;
+        }
+        protected static bool Less(List<IComparable> pq, int i, int j)
+        {
+            return pq[i - 1].CompareTo(pq[j - 1]) < 0;
+        }
+        protected static bool Less(IComparable a, IComparable b)
+        {
+            return a.CompareTo(b) < 0;
+        }
+
+        protected static void Exchange(IComparable[] pq, int i, int j)
+        {
+            IComparable swap = pq[i - 1];
+            pq[i - 1] = pq[j - 1];
+            pq[j - 1] = swap;
+        }
+
+        protected static void Exchange(List<IComparable> pq, int i, int j)
+        {
+            IComparable swap = pq[i - 1];
+            pq[i - 1] = pq[j - 1];
+            pq[j - 1] = swap;
+        }
+
+        public static bool IsSorted(IComparable[] pq)
+        {
+            for (int i = 1; i < pq.Length; i++)
+            {
+                if (Less(pq[i], pq[i - 1])) return false;
+            }
+
+            return true;
+        }
+        public static bool IsSorted(List<IComparable> pq)
+        {
+            for (int i = 1; i < pq.Count; i++)
+            {
+                if (Less(pq[i], pq[i - 1])) return false;
+            }
+
+            return true;
+        }
+
+
     }
+
+    public class HeapSortGeneral<TKey> : HeapSortGeneral where TKey : IComparable<TKey>
+    {
+        public static void Sort(List<TKey> pq)
+        {
+            int N = pq.Count;
+            for (int k = N / 2; k >= 1; k--)
+                Sink(pq, k, N);
+            while (N > 1)
+            {
+                Exchange(pq, 1, N--);
+                Sink(pq, 1, N);
+            }
+        }
+        public static void Sort(TKey[] pq)
+        {
+            int N = pq.Length;
+            for (int k = N / 2; k >= 1; k--)
+                Sink(pq, k, N);
+            while (N > 1)
+            {
+                Exchange(pq, 1, N--);
+                Sink(pq, 1, N);
+            }
+        }
+        protected static void Sink(TKey[] a, int k, int N)
+        {
+            while (2 * k <= N)
+            {
+                int j = 2 * k;
+                if (j < N && Less(a, j, j + 1)) j++;
+                if (!Less(a, k, j)) break;
+                Exchange(a, j, k);
+                k = j;
+            }
+        }
+
+        protected static void Sink(List<TKey> a, int k, int N)
+        {
+            while (2 * k <= N)
+            {
+                int j = 2 * k;
+                if (j < N && Less(a, j, j + 1)) j++;
+                if (!Less(a, k, j)) break;
+                Exchange(a, j, k);
+                k = j;
+            }
+        }
+
+        protected static bool Less(TKey[] pq, int i, int j)
+        {
+            return pq[i - 1].CompareTo(pq[j - 1]) < 0;
+        }
+        protected static bool Less(List<TKey> pq, int i, int j)
+        {
+            return pq[i - 1].CompareTo(pq[j - 1]) < 0;
+        }
+        protected static bool Less(TKey a, TKey b)
+        {
+            return a.CompareTo(b) < 0;
+        }
+
+        protected static void Exchange(TKey[] pq, int i, int j)
+        {
+            TKey swap = pq[i - 1];
+            pq[i - 1] = pq[j - 1];
+            pq[j - 1] = swap;
+        }
+
+        protected static void Exchange(List<TKey> pq, int i, int j)
+        {
+            TKey swap = pq[i - 1];
+            pq[i - 1] = pq[j - 1];
+            pq[j - 1] = swap;
+        }
+
+        public static bool IsSorted(TKey[] pq)
+        {
+            for (int i = 1; i < pq.Length; i++)
+            {
+                if (Less(pq[i], pq[i - 1])) return false;
+            }
+
+            return true;
+        }
+        public static bool IsSorted(List<TKey> pq)
+        {
+            for (int i = 1; i < pq.Count; i++)
+            {
+                if (Less(pq[i], pq[i - 1])) return false;
+            }
+
+            return true;
+        }
+
+
+    }
+
+
 }

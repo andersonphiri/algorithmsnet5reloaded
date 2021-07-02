@@ -1,0 +1,15 @@
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Algorithms.Sorting\bin\Debug\net5.0\Algorithms.Sorting.deps.json
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Algorithms.Sorting\bin\Debug\net5.0\Algorithms.Sorting.dll
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Algorithms.Sorting\bin\Debug\net5.0\ref\Algorithms.Sorting.dll
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Algorithms.Sorting\bin\Debug\net5.0\Algorithms.Sorting.pdb
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Algorithms.Sorting\bin\Debug\net5.0\Algorithms.Common.dll
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Algorithms.Sorting\bin\Debug\net5.0\Algorithms.Common.pdb
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Algorithms.Sorting\obj\Debug\net5.0\Algorithms.Sorting.csproj.AssemblyReference.cache
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Algorithms.Sorting\obj\Debug\net5.0\Algorithms.Sorting.GeneratedMSBuildEditorConfig.editorconfig
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Algorithms.Sorting\obj\Debug\net5.0\Algorithms.Sorting.AssemblyInfoInputs.cache
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Algorithms.Sorting\obj\Debug\net5.0\Algorithms.Sorting.AssemblyInfo.cs
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Algorithms.Sorting\obj\Debug\net5.0\Algorithms.Sorting.csproj.CoreCompileInputs.cache
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Algorithms.Sorting\obj\Debug\net5.0\Algorithms.Sorting.csproj.CopyComplete
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Algorithms.Sorting\obj\Debug\net5.0\Algorithms.Sorting.dll
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Algorithms.Sorting\obj\Debug\net5.0\ref\Algorithms.Sorting.dll
+D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Algorithms.Sorting\obj\Debug\net5.0\Algorithms.Sorting.pdb

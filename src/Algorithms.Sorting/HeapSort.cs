@@ -4,12 +4,17 @@ using System.Collections.Generic;
 
 namespace Algorithms.Sorting
 {
+    /// <summary>
+    /// Time complexity: worst case = average case = (2 * NlgN), best case = (NlgN)
+    /// </summary>
     public class HeapSortGeneral
     {
         public HeapSortGeneral()
         {
 
         }
+
+
 
         public static void Sort(IComparable[] pq)
         {

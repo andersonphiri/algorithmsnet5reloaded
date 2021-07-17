@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "drhhVTQzEmQRFPkewfB/DHeZ8aLfwcREaar7JVCtl7wvQGglOD//Ib04krGWN286YUL4VWByyUaImcNHuGiRbw==",
+  "dgSpecHash": "yNrRtwNeBwb/8Le6hqDrO3I9V8OZ99cTNycIuPmZSjCx0RfLvInf4LbQNAotWi+M8myLXfz9OkSeQE81Vnh52Q==",
   "success": true,
   "projectFilePath": "D:\\SOFTDEV\\csharp\\algorithmsnet\\algorithmsnet5reloaded\\tests\\Chitataunga.Algorithms.Sorting.Tests\\Chitataunga.Algorithms.Sorting.Tests.csproj",
   "expectedPackageFiles": [
@@ -96,6 +96,7 @@
     "C:\\Users\\phiri\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
     "C:\\Users\\phiri\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "C:\\Users\\phiri\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512",
+    "C:\\Users\\phiri\\.nuget\\packages\\chitataunga.algorithms.common\\1.0.0\\chitataunga.algorithms.common.1.0.0.nupkg.sha512",
     "C:\\Users\\phiri\\.nuget\\packages\\chitataunga.algorithms.sorting\\1.0.0\\chitataunga.algorithms.sorting.1.0.0.nupkg.sha512"
   ],
   "logs": []

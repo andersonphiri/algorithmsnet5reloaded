@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SOFTDEV\\csharp\\algorithmsnet\\algorithmsnet5reloaded\\src\\Chitataunga.Algorithms.Common\\Chitataunga.Algorithms.Common.csproj": {}
+    "D:\\SOFTDEV\\csharp\\algorithmsnet\\algorithmsnet5reloaded\\src\\Chitataunga.Algorithms.Searching\\Chitataunga.Algorithms.Searching.csproj": {}
   },
   "projects": {
-    "D:\\SOFTDEV\\csharp\\algorithmsnet\\algorithmsnet5reloaded\\src\\Chitataunga.Algorithms.Common\\Chitataunga.Algorithms.Common.csproj": {
+    "D:\\SOFTDEV\\csharp\\algorithmsnet\\algorithmsnet5reloaded\\src\\Chitataunga.Algorithms.Searching\\Chitataunga.Algorithms.Searching.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SOFTDEV\\csharp\\algorithmsnet\\algorithmsnet5reloaded\\src\\Chitataunga.Algorithms.Common\\Chitataunga.Algorithms.Common.csproj",
-        "projectName": "Chitataunga.Algorithms.Common",
-        "projectPath": "D:\\SOFTDEV\\csharp\\algorithmsnet\\algorithmsnet5reloaded\\src\\Chitataunga.Algorithms.Common\\Chitataunga.Algorithms.Common.csproj",
+        "projectUniqueName": "D:\\SOFTDEV\\csharp\\algorithmsnet\\algorithmsnet5reloaded\\src\\Chitataunga.Algorithms.Searching\\Chitataunga.Algorithms.Searching.csproj",
+        "projectName": "Chitataunga.Algorithms.Searching",
+        "projectPath": "D:\\SOFTDEV\\csharp\\algorithmsnet\\algorithmsnet5reloaded\\src\\Chitataunga.Algorithms.Searching\\Chitataunga.Algorithms.Searching.csproj",
         "packagesPath": "C:\\Users\\phiri\\.nuget\\packages\\",
-        "outputPath": "D:\\SOFTDEV\\csharp\\algorithmsnet\\algorithmsnet5reloaded\\src\\Chitataunga.Algorithms.Common\\obj\\",
+        "outputPath": "D:\\SOFTDEV\\csharp\\algorithmsnet\\algorithmsnet5reloaded\\src\\Chitataunga.Algorithms.Searching\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

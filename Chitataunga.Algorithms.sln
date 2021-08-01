@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A771CC58
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chitataunga.Algorithms.Sorting.Tests", "tests\Chitataunga.Algorithms.Sorting.Tests\Chitataunga.Algorithms.Sorting.Tests.csproj", "{9B1501B5-17E0-4319-946B-F0895E6B1909}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chitataunga.Algorithms.Searching", "src\Chitataunga.Algorithms.Searching\Chitataunga.Algorithms.Searching.csproj", "{78D76F15-4F60-4330-9E51-465AC053F43F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chitataunga.Algorithms.Searching", "src\Chitataunga.Algorithms.Searching\Chitataunga.Algorithms.Searching.csproj", "{78D76F15-4F60-4330-9E51-465AC053F43F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chitataunga.Algorithms.Common.Tests", "tests\Chitataunga.Algorithms.Common.Tests\Chitataunga.Algorithms.Common.Tests.csproj", "{13E140CA-F94C-4938-B94A-1B148921E102}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,18 @@ Global
 		{78D76F15-4F60-4330-9E51-465AC053F43F}.Release|x64.Build.0 = Release|Any CPU
 		{78D76F15-4F60-4330-9E51-465AC053F43F}.Release|x86.ActiveCfg = Release|Any CPU
 		{78D76F15-4F60-4330-9E51-465AC053F43F}.Release|x86.Build.0 = Release|Any CPU
+		{13E140CA-F94C-4938-B94A-1B148921E102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E140CA-F94C-4938-B94A-1B148921E102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E140CA-F94C-4938-B94A-1B148921E102}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{13E140CA-F94C-4938-B94A-1B148921E102}.Debug|x64.Build.0 = Debug|Any CPU
+		{13E140CA-F94C-4938-B94A-1B148921E102}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{13E140CA-F94C-4938-B94A-1B148921E102}.Debug|x86.Build.0 = Debug|Any CPU
+		{13E140CA-F94C-4938-B94A-1B148921E102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E140CA-F94C-4938-B94A-1B148921E102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E140CA-F94C-4938-B94A-1B148921E102}.Release|x64.ActiveCfg = Release|Any CPU
+		{13E140CA-F94C-4938-B94A-1B148921E102}.Release|x64.Build.0 = Release|Any CPU
+		{13E140CA-F94C-4938-B94A-1B148921E102}.Release|x86.ActiveCfg = Release|Any CPU
+		{13E140CA-F94C-4938-B94A-1B148921E102}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +96,7 @@ Global
 		{B9EA5106-9B84-4E6B-A130-06619A1F547F} = {47D11FD2-CB18-40D3-8C3F-AEFD12A5376E}
 		{9B1501B5-17E0-4319-946B-F0895E6B1909} = {A771CC58-FBD8-4C41-9322-8464411A4BD1}
 		{78D76F15-4F60-4330-9E51-465AC053F43F} = {47D11FD2-CB18-40D3-8C3F-AEFD12A5376E}
+		{13E140CA-F94C-4938-B94A-1B148921E102} = {A771CC58-FBD8-4C41-9322-8464411A4BD1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {186C5792-E06B-4B18-BA17-7367AA279766}

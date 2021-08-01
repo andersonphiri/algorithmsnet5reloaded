@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Chitataunga.Algorithms.Common</id>
+    <version>1.0.0</version>
+    <authors>Anderson Phiri (chikuse)</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>chitataunga.jpg</icon>
+    <projectUrl>https://github.com/andersonphiri/algorithmsnet5reloaded.git</projectUrl>
+    <description>contains all common items for the rest of the algs</description>
+    <repository url="https://github.com/andersonphiri/algorithmsnet5reloaded.git" />
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\SOFTDEV\csharp\algorithmsnet\algorithmsnet5reloaded\src\Chitataunga.Algorithms.Common\bin\Debug\net5.0\Chitataunga.Algorithms.Common.dll" target="lib\net5.0\Chitataunga.Algorithms.Common.dll" />
+    <file src="C:\Users\phiri\OneDrive\Pictures\chitataunga.jpg" target="chitataunga.jpg" />
+  </files>
+</package>

@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace Chitataunga.Algorithms.Common.DataStructures
 {
+    /// <summary>
+    /// Stack impentation using doubly linked Linked list
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class PushDownStack<T> : IPushDownStack<T>
     {
         private DoublyLinkedList<T> _list;
@@ -89,5 +93,6 @@ namespace Chitataunga.Algorithms.Common.DataStructures
             _list.Clear();
             _list = null;
         }
+    
     }
 }

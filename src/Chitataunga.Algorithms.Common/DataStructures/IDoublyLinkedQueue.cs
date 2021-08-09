@@ -12,6 +12,7 @@ namespace Chitataunga.Algorithms.Common.DataStructures
         void Clear();
         ValueTask ClearAsync();
         T Dequeue();
+        void Enqueue(T item);
         bool IsEmpty();
         T Peek();
         bool TryPeek(out T result);

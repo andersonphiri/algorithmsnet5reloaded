@@ -7,11 +7,12 @@ using System.Threading.Tasks;
 
 namespace Chitataunga.Algorithms.Common.DataStructures
 {
+
     /// <summary>
     /// Queue implementation using doubly linked lists
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public class DoublyLinkedQueue<T> :  IDoublyLinkedQueue<T>
+    public class DoublyLinkedQueue<T> : IDoublyLinkedQueue<T>
     {
         private DoublyLinkedList<T> _list;
         public DoublyLinkedQueue()
